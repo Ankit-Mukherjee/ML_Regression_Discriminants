@@ -56,5 +56,8 @@ The main focus of this project is to:
    pip install numpy scipy matplotlib
 
 ## Usage
+1.	Run the main script:
  ```bash
    python script.py
+2.	Ensure the sample.pickle and diabetes.pickle datasets are present in the working directory.
+3.	Outputs include printed accuracy/MSE values and generated plots for decision boundaries and error trends.
