@@ -49,15 +49,27 @@ The main focus of this project is to:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your_username>/<repository_name>.git
-   cd <repository_name>
+   git clone https://github.com/Ankit-Mukherjee/ML_Regression_Discriminants.git
+   cd ML_Regression_Discriminants
 2. Install necessary libraries
     ```bash
    pip install numpy scipy matplotlib
 
 ## Usage
-1.	Run the main script:
- ```bash
-   python script.py
-2.	Ensure the sample.pickle and diabetes.pickle datasets are present in the working directory.
-3.	Outputs include printed accuracy/MSE values and generated plots for decision boundaries and error trends.
+- **Prerequisites**:
+  - Ensure the following files are present in the working directory:
+    - `sample.pickle`
+    - `diabetes.pickle`
+
+- **To Run the Script**:
+  - Use the command:
+    ```bash
+    python script.py
+    ```
+
+- **Outputs**:
+  - Printed accuracy and Mean Squared Error (MSE) values in the console.
+  - Generated plots:
+    - Decision boundaries.
+    - Error trends.
+
