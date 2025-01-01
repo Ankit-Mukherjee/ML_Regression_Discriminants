@@ -22,24 +22,24 @@ The main focus of this project is to:
 ---
 
 ## Implemented Methods
-### Problem 1: Gaussian Discriminators
+### Gaussian Discriminators
 - **Functions**: `ldaLearn`, `qdaLearn`, `ldaTest`, `qdaTest`
 - **Objective**: Implement and compare LDA and QDA for classification tasks.
 - **Results**: Plots of decision boundaries and accuracy comparison.
 
-### Problem 2: Ordinary Least Squares (OLS) Regression
+### Ordinary Least Squares (OLS) Regression
 - **Functions**: `learnOLERegression`, `testOLERegression`
 - **Objective**: Minimize squared loss to estimate regression parameters and compare performance with/without intercept.
 
-### Problem 3: Ridge Regression
+### Ridge Regression
 - **Functions**: `learnRidgeRegression`
 - **Objective**: Minimize regularized squared loss, analyze MSE for varying regularization parameter (λ).
 
-### Problem 4: Ridge Regression with Gradient Descent
+### Ridge Regression with Gradient Descent
 - **Functions**: `regressionObjVal`, `minimize` (Scipy)
 - **Objective**: Implement Ridge Regression using gradient descent and compare results with direct minimization.
 
-### Problem 5: Non-linear Regression
+### Non-linear Regression
 - **Functions**: `mapNonLinear`
 - **Objective**: Experiment with polynomial feature mappings and analyze the impact of regularization on model performance.
 
