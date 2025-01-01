@@ -51,7 +51,8 @@ The main focus of this project is to:
    ```bash
    git clone https://github.com/<your_username>/<repository_name>.git
    cd <repository_name>
-2. ```bash
+2. Install necessary libraries
+    ```bash
    pip install numpy scipy matplotlib
 
 ## Usage
